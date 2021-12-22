@@ -17,7 +17,7 @@ const [itemBody, setItemBody] = useState('')
                 body: JSON.stringify(blog)
             }).then ((res) => res.json())
             .then((json) => {
-                console.log('new blog added')
+                console.log(json)
             })
             
             setItemTitle('')
