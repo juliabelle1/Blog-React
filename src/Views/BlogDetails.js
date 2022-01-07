@@ -18,7 +18,7 @@ export const BlogDetails = () => {
 
     useEffect(() => {
         getBlog()
-    }, [])
+    })
 
     return (
         <div>
