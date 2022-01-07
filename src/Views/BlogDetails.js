@@ -14,7 +14,7 @@ export const BlogDetails = () => {
         setLoading(false)
     }
 
-    console.log(blog)
+    // console.log(blog)
 
     useEffect(() => {
         getBlog()
